@@ -86,7 +86,7 @@ header nav .nav-menu {
     position: absolute;
     width: 2rem;
     aspect-ratio: 1;
-    background-image: url(/assets/images/icon-hamburger.svg);
+    background-image: url(../assets/images/icon-hamburger.svg);
     background-color: transparent;
     background-repeat: no-repeat;
     border: 0;
@@ -96,7 +96,7 @@ header nav .nav-menu {
   }
   /* if the button(mobile-nav-toggle) has a data attribute of aria-epanded true, we set the background-image to close icon */
   .mobile-nav-toggle[aria-expanded="true"] {
-    background-image: url(/assets/images/icon-close.svg);
+    background-image: url(../assets/images/icon-close.svg);
   }
 
   header nav .nav-menu[data-visible="true"] {
@@ -144,7 +144,7 @@ ul li a {
 }
 /* overlay styles */
 .overlay {
-  background-image: url("/assets/images/mobile/image-hero.jpg");
+  background-image: url("../assets/images/mobile/image-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center; */
@@ -182,7 +182,7 @@ ul li a {
     transition: text-decoration(300ms ease-out);
   }
   .overlay {
-    background-image: url("/assets/images/desktop/image-hero.jpg");
+    background-image: url("../assets/images/desktop/image-hero.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     /* background-position: center; */
