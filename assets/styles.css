@@ -144,7 +144,7 @@ ul li a {
 }
 /* overlay styles */
 .overlay {
-  background: url("/assets/images/mobile/image-hero.jpg");
+  background: url("./assets/images/mobile/image-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center; */
@@ -182,7 +182,7 @@ ul li a {
     transition: text-decoration(300ms ease-out);
   }
   .overlay {
-    background: url("/assets/images/desktop/image-hero.jpg");
+    background: url("./assets/images/desktop/image-hero.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     /* background-position: center; */
